@@ -15,7 +15,7 @@ authors:
 
 就你模组中的其他东西一样，你需要使用 `ComponentType` 注册自定义的组件。 这个组件类型接受一个泛型参数，包含你的组件的值的类型。 之后在讲[基本](#basic-data-components)和[高级](#advanced-data-components)组件时会更深入研究。
 
-把这个组件放到一个合理的类中。 对于这个例子，我们创建一个新的包，叫做 `compoennt`，以及一个类，叫做 `ModComponents`，包含我们所有的组件类型。 确保在你的[模组的初始化器](./getting-started/project-structure#entrypoints)中调用 `ModComponents.initialize()`。
+把这个组件放到一个合理的类中。 对于这个例子，我们创建一个新的包，叫做 `component`，以及一个类，叫做 `ModComponents`，包含我们所有的组件类型。 确保在你的[模组的初始化器](./getting-started/project-structure#entrypoints)中调用 `ModComponents.initialize()`。
 
 @[code transcludeWith=::1](@/reference/latest/src/main/java/com/example/docs/component/ModComponents.java)
 
